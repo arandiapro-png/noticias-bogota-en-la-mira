@@ -1,0 +1,26 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Administrar | Noticias Bogotá en la Mira</title><link rel="stylesheet" href="css/styles.css"></head><body>
+    <header><div class="container nav">
+      <a class="brand" href="index.html">Noticias <span>Bogotá en la Mira</span></a>
+      <nav>
+        <a class="" href="index.html">Inicio</a>
+        <a class="" href="noticias.html">Noticias</a>
+        <a class="" href="favoritos.html">Favoritos</a>
+        <a class="" href="contacto.html">Contacto</a>
+        <a class="active" href="administrar.html">Administrar</a>
+      </nav>
+      <form class="search" id="searchForm"><input id="searchInput" placeholder="Buscar..."><button aria-label="Buscar">⌕</button></form>
+    </div></header>
+    <main><div class="container">
+<h1 class="page-title">Administrar noticias</h1><p class="muted">Mini CRUD local para crear y eliminar noticias de prueba. Los registros nuevos se guardan en localStorage.</p>
+<div class="form-box" style="margin-bottom:22px">
+ <form id="newsForm">
+  <div class="field"><label for="title">Título *</label><input id="title" required></div>
+  <div class="field"><label for="cat">Categoría *</label><select id="cat"><option>Colombia</option><option>Mundo</option><option>Deportes</option><option>Tecnología</option><option>Medio Ambiente</option><option>Cultura</option></select></div>
+  <div class="field"><label for="description">Descripción *</label><textarea id="description" rows="3" required></textarea></div>
+  <div class="field"><label for="image">URL de imagen (opcional)</label><input id="image" type="url"></div>
+  <button class="btn" type="submit">Crear noticia</button>
+ </form>
+</div>
+<div class="admin"><h2>Noticias creadas localmente</h2><div id="adminList"></div></div>
+</div></main><footer><div class="container footer"><div><b>Noticias Bogotá en la Mira</b><div class="small">Información y actualidad en un solo lugar.</div></div><div class="social"><span>f</span><span>◎</span><span>𝕏</span><span>▶</span></div><div class="small">© 2026 Noticias Bogotá en la Mira. Todos los derechos reservados.</div></div></footer>
+    <div class="toast" id="toast"></div><script src="js/app.js"></script><script>document.addEventListener('DOMContentLoaded',setupAdmin)</script></body></html>

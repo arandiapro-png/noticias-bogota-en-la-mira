@@ -1,0 +1,27 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Contacto | Noticias Bogotá en la Mira</title><link rel="stylesheet" href="css/styles.css"></head><body>
+    <header><div class="container nav">
+      <a class="brand" href="index.html">Noticias <span>Bogotá en la Mira</span></a>
+      <nav>
+        <a class="" href="index.html">Inicio</a>
+        <a class="" href="noticias.html">Noticias</a>
+        <a class="" href="favoritos.html">Favoritos</a>
+        <a class="active" href="contacto.html">Contacto</a>
+        <a class="" href="administrar.html">Administrar</a>
+      </nav>
+      <form class="search" id="searchForm"><input id="searchInput" placeholder="Buscar..."><button aria-label="Buscar">⌕</button></form>
+    </div></header>
+    <main><div class="container">
+<h1 class="page-title">Contáctanos</h1><p class="muted">¿Tienes alguna duda, sugerencia o quieres compartir una noticia?</p>
+<div class="form-layout">
+ <form id="contactForm" class="form-box" novalidate>
+  <div id="success" class="success" style="display:none"></div>
+  <div class="field"><label for="name">Nombre completo *</label><input id="name" placeholder="Tu nombre"><div id="nameError" class="error"></div></div>
+  <div class="field"><label for="email">Correo electrónico *</label><input id="email" type="email" placeholder="ejemplo@correo.com"><div id="emailError" class="error"></div></div>
+  <div class="field"><label for="subject">Asunto *</label><select id="subject"><option value="">Selecciona un asunto</option><option>Sugerencia</option><option>Corrección de noticia</option><option>Contacto general</option></select><div id="subjectError" class="error"></div></div>
+  <div class="field"><label for="message">Mensaje *</label><textarea id="message" rows="6" placeholder="Escribe tu mensaje"></textarea><div id="messageError" class="error"></div></div>
+  <button class="btn" type="submit">Enviar mensaje</button>
+ </form>
+ <aside class="info-box"><h2>También puedes escribirnos</h2><p>✉ contacto@bogotaenlamira.com</p><p>⌖ Bogotá, Colombia</p><p>◷ Lunes a viernes<br>8:00 a. m. - 6:00 p. m.</p></aside>
+</div>
+</div></main><footer><div class="container footer"><div><b>Noticias Bogotá en la Mira</b><div class="small">Información y actualidad en un solo lugar.</div></div><div class="social"><span>f</span><span>◎</span><span>𝕏</span><span>▶</span></div><div class="small">© 2026 Noticias Bogotá en la Mira. Todos los derechos reservados.</div></div></footer>
+    <div class="toast" id="toast"></div><script src="js/app.js"></script><script>document.addEventListener('DOMContentLoaded',setupContact)</script></body></html>
