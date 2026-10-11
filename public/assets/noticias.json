@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "categoria": "Colombia",
+    "titulo": "Bogotá avanza en proyectos de movilidad sostenible",
+    "fecha": "12 de septiembre de 2026",
+    "imagen": "https://bogota.gov.co/sites/default/files/styles/1050px/public/2026-01/bogota-puente-de-venecia-grupo-1-de-av.-68-alcanza-un-74-%25-de-avance.jpg",
+    "descripcion": "Nuevas obras y alternativas de transporte buscan mejorar la movilidad de la capital.",
+    "contenido": "Bogotá continúa impulsando proyectos orientados a una movilidad más sostenible. Las iniciativas incluyen mejoras en ciclorrutas, fortalecimiento del transporte público y recuperación de espacios para peatones.\n\nEl objetivo es facilitar los desplazamientos cotidianos y avanzar hacia una ciudad con opciones de transporte más eficientes. Estas acciones hacen parte de una visión de movilidad que busca combinar tecnología, infraestructura y cuidado ambiental."
+  },
+  {
+    "id": 2,
+    "categoria": "Deportes",
+    "titulo": "En ciudad Bolivar torneos relampagos",
+    "fecha": "10 de septiembre de 2026",
+    "imagen": "https://www2.culturarecreacionydeporte.gov.co/sites/default/files/styles/escala_800_px/public/2018_articulos/ciudad_bolivar_opt_opt.png?itok=LmDhnNCo",
+    "descripcion": "Se realizan torneos los fines de semana para que los jovenes tengan espacios",
+    "contenido": "En ciudad Bolivar bogota uno de los sectores mas expuestos socialmente se realizan tornos a nivel local (Relampagos) con el fin de promover el espacio y el tiempo de los jovenes de la localidad"
+  },
+  {
+    "id": 3,
+    "categoria": "Medio Ambiente",
+    "titulo": "Parques naturales, un tesoro que debemos cuidar",
+    "fecha": "10 de septiembre de 2026",
+    "imagen": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80",
+    "descripcion": "Colombia cuenta con una gran variedad de ecosistemas que requieren protección y uso responsable.",
+    "contenido": "Los parques naturales conservan ecosistemas esenciales para la biodiversidad. Además de proteger especies, estos espacios aportan beneficios ambientales y oportunidades para el turismo responsable.\n\nLa educación ambiental y el respeto por las normas de conservación son claves para que estos lugares puedan mantenerse para futuras generaciones."
+  },
+  {
+    "id": 4,
+    "categoria": "Tecnología",
+    "titulo": "La inteligencia artificial sigue transformando el mundo",
+    "fecha": "9 de septiembre de 2026",
+    "imagen": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=80",
+    "descripcion": "Las herramientas de inteligencia artificial continúan incorporándose en diferentes actividades.",
+    "contenido": "La inteligencia artificial se está integrando en sectores como educación, comunicación, industria y servicios. Su crecimiento plantea nuevas oportunidades y también la necesidad de desarrollar criterios responsables para su uso.\n\nEl aprendizaje de estas herramientas será cada vez más relevante para usuarios y organizaciones."
+  },
+  {
+    "id": 5,
+    "categoria": "Mundo",
+    "titulo": "Nuevas alianzas fortalecen la cooperación internacional",
+    "fecha": "8 de septiembre de 2026",
+    "imagen": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1000&q=80",
+    "descripcion": "Distintos países buscan fortalecer la cooperación en áreas de interés común.",
+    "contenido": "La cooperación internacional permite desarrollar proyectos conjuntos en educación, ciencia, comercio y sostenibilidad. Las nuevas alianzas buscan facilitar el intercambio de conocimiento y experiencias.\n\nEstos procesos requieren diálogo permanente y acuerdos que permitan alcanzar objetivos compartidos."
+  }
+]
