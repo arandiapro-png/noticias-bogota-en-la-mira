@@ -1,0 +1,5 @@
+Rama de trabajo para la Entrega 3.
+
+La rama principal main conserva la versión entregada en la Entrega 2. Se ha creado esta rama para preparar los archivos Angular y revisar el despliegue antes de publicar cambios en main.
+
+No entregar como versión final hasta incorporar el proyecto Angular completo, ejecutar npm install y npm run build, comprobar las funciones y confirmar la publicación del sitio.
